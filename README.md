@@ -1,16 +1,40 @@
-# React + Vite
+# ReduxCounter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive counter application built with React and Redux Toolkit. This project demonstrates how to manage centralized application state using Redux, including increment, decrement, and increment-by-amount functionality.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 https://redux-counter-two-lilac.vercel.app/
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ➕ Increment counter
+- ➖ Decrement counter
+- 🔢 Increment counter by a custom amount
+- ⚡ Centralized state management with Redux Toolkit
+- 🎯 Simple and responsive UI
+- 🚀 Deployed on Vercel
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Redux Toolkit
+- React Redux
+- Vite
+- Tailwind CSS
+- JavaScript
+- Vercel
+
+## 📂 Project Structure
+
+```text
+src/
+├── app/
+│   └── store.js
+│
+├── features/
+│   └── counter/
+│       └── counterSlice.js
+│
+├── App.jsx
+└── main.jsx
